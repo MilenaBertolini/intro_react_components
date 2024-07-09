@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    font-family: Rawline, Raleway, sans-serif;;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    color: #0C326F;
+    margin: 10px 0px;
+}
+
+.subtitle{
+    color: #565655;
+    padding: 10px;
+}
+
+.container{
+    color: #0C326F;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.miniBox{
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    padding: 20px;
+    align-items: center;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.miniTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+}
